@@ -3,7 +3,7 @@ from random import randint
 
 def list_append() -> list:
     '''
-    Creates a randomized listof numbers in range of 10.
+    Creates a randomized list of numbers in range of 10.
     :return: list of integer numbers
     '''
     list = []
@@ -32,12 +32,9 @@ def list_sum() -> list:
     return total_sum
 
 
-list_a = list_append()
-
-list_b = list_append()
-
-
 if __name__ == '__main__':
+    list_a = list_append()
+    list_b = list_append()
     print(united())
     print()
     print(list_sum())
